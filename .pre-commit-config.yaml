@@ -12,12 +12,6 @@ repos:
       - id: debug-statements
       - id: end-of-file-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/commitizen-tools/commitizen
-    hooks:
-      - id: commitizen
-        stages:
-          - commit-msg
-    rev: v2.21.2
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v8.0.0
     hooks:
