@@ -13,8 +13,3 @@ target-version = ["py38"]
 line_length = 100
 profile = "black"
 force_single_line = true
-
-[tool.commitizen]
-name = "cz_conventional_commits"
-version = "0.0.17"
-tag_format = "$version"
